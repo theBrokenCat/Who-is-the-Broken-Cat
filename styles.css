@@ -1,0 +1,155 @@
+body{
+    background-color: #737373;
+    margin: 0;
+}
+
+h1{
+    color: #F2F2F2;
+}
+
+p{
+    font-size: 1.9rem;
+    color: #F2F2F2;
+}
+
+.Background{
+    
+    position: absolute;
+    color:#F2F2F2;
+    margin-top: -500px;
+    width: 20%;
+    z-index: -1;
+    font-size:10000%;
+    padding: 0 20% 0;
+    
+    font-family: "Permanent Marker";
+    opacity: 50%;
+    
+}
+
+.ski-bg{
+    position: absolute;
+    z-index: -2;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+#title .container-fluid{
+    padding: 0;
+    text-align: left;
+}
+
+.navbar-brand{
+    position: fixed;
+    /*
+    font-family: "Russo One";
+    font-family: "Rock Salt";
+    font-family: "Righteous";
+    */
+    font-family: "Permanent Marker";
+    /*
+    font-family: "Michroma";
+    font-family: "Candal";
+    */
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 0 30px;
+    color: #F2F2F2;
+  }
+
+.navbar{
+    padding:0 0 0;
+    background-color: black;
+}
+
+.nav-item{
+    padding: 0 15px 0;
+}
+
+#top .nav-link{
+    font-family: "Righteous";
+    text-align: center;
+    color: #A6A6A6;
+    
+}
+
+#top{
+    padding: 10px 0;
+}
+
+.navbar-toggler{
+    background-color: <palette>
+    <color name='Landscape-in-Les-deux-Alpes,-French-Alps-1' rgb='A3BFD9' r='163' g='191' b='217' />
+    <color name='Landscape-in-Les-deux-Alpes,-French-Alps-2' rgb='0367A6' r='3' g='103' b='166' />
+    <color name='Landscape-in-Les-deux-Alpes,-French-Alps-3' rgb='5095BF' r='80' g='149' b='191' />
+    <color name='Landscape-in-Les-deux-Alpes,-French-Alps-4' rgb='0378A6' r='3' g='120' b='166' />
+    <color name='Landscape-in-Les-deux-Alpes,-French-Alps-5' rgb='262621' r='38' g='38' b='33' />
+    </palette>;
+    padding-left:10px;
+    padding-right:10px;
+    margin-right: 10px;
+}
+
+/* SKI SECTION */
+
+.shadows{
+    box-shadow: 30px 100px 40px rgba(163,191,217, 0.4);
+    
+    /* background:rgb(0,0,0);
+    background: transparent\9;
+    background:rgba(0,0,0,0.4); */
+    background-color: rgba(115,115,115, 0.4);
+}
+
+.ski-section{
+    text-align: center;
+}
+
+.ski-title{
+    margin: 30px 0 30px;
+}
+
+.ski-div1{
+    margin: 100px auto 100px auto;
+    padding: 0;
+    
+    width: 50%;
+    text-align: center;
+}
+
+.ski-div2{
+    margin: 200px auto 100px auto;
+    padding: 0;
+    
+    width: 50%;
+    text-align: center;
+}
+
+.ski-text1{
+    width: 30%;
+    margin: 50px 0 0 100px;
+    float: left;
+    text-align: left;
+}
+
+.ski-text2{
+    width: 30%;
+    margin: 50px 80px 0 0;
+    float: right;
+    text-align: left;
+}
+
+.placing-snow-img{
+    width: 40%;
+    margin-left: 150px;
+}
+
+.happy-competing-foto{
+    width: 40%;
+    margin-right: 130px;
+    margin-left: 70px;
+}
