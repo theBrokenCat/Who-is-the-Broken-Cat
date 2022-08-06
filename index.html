@@ -56,42 +56,57 @@
     
     <section class="ski-section" id="ski">
         <h1 class="ski-title">SKI</h1>
-        <div class="container-fluid ski-div1 shadows">
-            <p class="ski-text1">"Ski makes me feel like I'm in another world, in one where problems don't exist"</p>
-            <img class="placing-snow-img" src="images/placing-snow.jpg" alt="placing-snow-img">
-        </div>
-
-        <div class="container-fluid ski-div2">
-            <p class="ski-text2">"Competing is the way I show myself of what I am capable"</p>
-            <img class="happy-competing-foto" src="images/happy-competing-foto.jpg" alt="happy-competing-foto-img">
-        </div>
-
-        <!-- CAROUSEL -->
-        <div id="ski-carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
+        <div class="container-fluid">
+            <div class="row ski-div1 shadows">
+                <div class="col-lg-6">
+                    <p class="ski-text1">"Ski makes me feel like I'm in another world, in one where problems don't exist"</p>
+                </div>
+                <div class="col-lg-6">
+                    <img class="placing-snow-img" src="images/placing-snow.jpg" alt="placing-snow-img">
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#ski-carousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#ski-carousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+    
+            <div class="row ski-div2 shadows">
+                <div class="col-lg-6">
+                    <img class="happy-competing-foto" src="images/happy-competing-foto.jpg" alt="happy-competing-foto-img">
+                </div>
+                <div class="col-lg-6">
+                    <p class="ski-text2">"Competing is the way I show myself of what I am capable"</p>
+                </div>
+            </div>
+    
+            <!-- CAROUSEL -->
+            <div id="ski-carousel" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active container-fluid">
+                    <img src="images/ski-bg.JPG" class="d-block w-100" alt="ski-bg-img">
+                  </div>
+                  <div class="carousel-item">
+                    <video class="ski-video1" autoplay loop controls muted src="videos/video1.mp4"></video>
+                  </div>
+                  <div class="carousel-item">
+                    <video class="ski-video1" autoplay loop controls muted src="videos/jamxtreme-video.mp4"></video>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#ski-carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#ski-carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+        </div>
+        
+
 
     </section>
-    
 
+
+    <!-- MUSIC -->
+    <section class="music-section" id="music">
+        
+
+    </section>
     
 </body>
 </html>
