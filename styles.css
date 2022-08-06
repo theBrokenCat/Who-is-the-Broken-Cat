@@ -12,6 +12,10 @@ p{
     color: #F2F2F2;
 }
 
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
 .Background{
     
     position: absolute;
@@ -19,11 +23,11 @@ p{
     margin-top: -500px;
     width: 20%;
     z-index: -1;
-    font-size:10000%;
-    padding: 0 20% 0;
+    font-size:9000%;
+    /* padding: 0 20% 0; */
     
     font-family: "Permanent Marker";
-    opacity: 50%;
+    opacity: 10%;
     
 }
 
@@ -32,10 +36,6 @@ p{
     z-index: -2;
     margin-top: 50px;
     width: 100%;
-}
-
-.container-fluid{
-    padding: 7% 15%;
 }
 
 #title .container-fluid{
@@ -82,13 +82,7 @@ p{
 }
 
 .navbar-toggler{
-    background-color: <palette>
-    <color name='Landscape-in-Les-deux-Alpes,-French-Alps-1' rgb='A3BFD9' r='163' g='191' b='217' />
-    <color name='Landscape-in-Les-deux-Alpes,-French-Alps-2' rgb='0367A6' r='3' g='103' b='166' />
-    <color name='Landscape-in-Les-deux-Alpes,-French-Alps-3' rgb='5095BF' r='80' g='149' b='191' />
-    <color name='Landscape-in-Les-deux-Alpes,-French-Alps-4' rgb='0378A6' r='3' g='120' b='166' />
-    <color name='Landscape-in-Les-deux-Alpes,-French-Alps-5' rgb='262621' r='38' g='38' b='33' />
-    </palette>;
+    background-color:#F2F2F2;
     padding-left:10px;
     padding-right:10px;
     margin-right: 10px;
@@ -114,42 +108,50 @@ p{
 }
 
 .ski-div1{
-    margin: 100px auto 100px auto;
-    padding: 0;
+    /* margin: 50px auto 100px auto; */
     
-    width: 50%;
-    text-align: center;
+    /* width: 50%; */
 }
 
 .ski-div2{
     margin: 200px auto 100px auto;
-    padding: 0;
-    
-    width: 50%;
-    text-align: center;
 }
 
 .ski-text1{
-    width: 30%;
-    margin: 50px 0 0 100px;
+    margin-right: 3%;
     float: left;
-    text-align: left;
+    position: relative;
+    top: 30%;
+    margin: 0 0 90px 0;
+
+    /* text-align: left; */
 }
 
 .ski-text2{
-    width: 30%;
-    margin: 50px 80px 0 0;
-    float: right;
-    text-align: left;
+    margin-left: 3%;
+    float: left;
+    position: relative;
+    top: 30%;
 }
 
 .placing-snow-img{
-    width: 40%;
-    margin-left: 150px;
+    margin-left: 3%;
+    width: 100%;
+    position: relative;
 }
 
 .happy-competing-foto{
-    width: 40%;
-    margin-right: 130px;
-    margin-left: 70px;
+    width: 100%;
+    position: relative;
+    right: 3%;
+
 }
+
+.ski-video1{
+    width: 100%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
